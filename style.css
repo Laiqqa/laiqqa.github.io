@@ -70,7 +70,7 @@
   width: 100%;
   height: calc(100vh - -12vh);
   display: flex;
-  background: white url(img/bg.jpg) center/cover;
+  background: white url(bg.jpg) center/cover;
   background-blend-mode: multiply;
   flex-wrap: wrap;
   justify-content:space-evenly;
@@ -245,13 +245,12 @@ background: linear-gradient(20deg, magenta, cyan);
 }
 
 .card img {
-  width: 80%; /* Sesuaikan ukuran gambar */
+  width: 80%; 
   height: auto;
   border-radius: 10px;
   z-index: 2;
 }
 
-/* From Uiverse.io by ilkhoeri */ 
 .button {
   --h-button: 48px;
   --w-button: 102px;
